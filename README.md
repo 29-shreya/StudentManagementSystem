@@ -1,73 +1,78 @@
-# Student Management System
+# 🎓 Student Management System
 
-A Python-based Student Management System that helps manage student records through a simple application.
+A Python-based Student Management System that allows users to manage student records using JSON file handling.
 
-## Features
+## ✨ Features
 
 - Add new student records
 - View all student records
-- Search for students
-- Update student details
+- Search students by ID
+- Update existing student information
 - Delete student records
-- Store student information using JSON file handling
+- Store student records permanently using JSON
+- Validate student marks
+- Prevent duplicate student IDs
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- Python
-- Object-Oriented Programming (OOP)
+- Python 3
 - JSON
 - File Handling
+- Python Functions
+- Lists and Dictionaries
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 StudentManagementSystem/
 │
-├── main.py
-├── student.py
+├── student_management.py
+├── file_handler.py
 ├── students.json
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
-*Adjust the file structure above to match the actual files in your repository.*
+## ⚙️ Installation and Execution
 
-## Concepts Practised
-
-- Python functions and classes
-- Object-Oriented Programming
-- CRUD operations
-- File handling
-- Data storage using JSON
-
-## How to Run
-
-1. Install Python 3.
-2. Clone this repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/29-shreya/StudentManagementSystem.git
 ```
 
-3. Open the project folder.
-4. Run the main Python file:
+### 2. Open the project folder
 
 ```bash
-python main.py
+cd StudentManagementSystem
 ```
 
-## Future Improvements
+### 3. Run the application
 
-- Add input validation
-- Improve exception handling
+```bash
+python student_management.py
+```
+
+## 📚 Concepts Practised
+
+- Python programming fundamentals
+- Functions and modular programming
+- Lists and dictionaries
+- Conditional statements and loops
+- JSON file handling
+- Exception handling
+- CRUD operations (Create, Read, Update, Delete)
+
+## 🚀 Future Improvements
+
 - Add a graphical user interface
 - Integrate a MySQL database
-- Add automated tests
+- Add student performance reports
+- Improve input validation
+- Add automated testing
 
-## Author
+## 👩‍💻 Author
 
-Shreya Shrikant Patil
+**Shreya Shrikant Patil**
 
-GitHub: https://github.com/29-shreya
-
-LinkedIn: https://linkedin.com/in/shreyapatil29
+- GitHub: https://github.com/29-shreya
+- LinkedIn: https://linkedin.com/in/shreyapatil29
