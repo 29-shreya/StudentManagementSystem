@@ -1,27 +1,26 @@
-# 🎓 Student Management System
+# Student Management System
 
-A Python-based Student Management System that allows users to manage student records using JSON file handling.
+A simple Python-based Student Management System that allows users to manage student records using JSON file storage.
 
-## ✨ Features
+## Features
 
 - Add new student records
 - View all student records
 - Search students by ID
-- Update existing student information
-- Delete student records
-- Store student records permanently using JSON
-- Validate student marks
-- Prevent duplicate student IDs
+- Update existing student details
+- Delete student records with confirmation
+- Validate student IDs and marks
+- Store student data persistently in a JSON file
+- Handle file-related errors
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- Python 3
+- Python
 - JSON
 - File Handling
-- Python Functions
-- Lists and Dictionaries
+- Exception Handling
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 StudentManagementSystem/
@@ -32,47 +31,56 @@ StudentManagementSystem/
 └── README.md
 ```
 
-## ⚙️ Installation and Execution
+## How to Run
 
-### 1. Clone the repository
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/29-shreya/StudentManagementSystem.git
 ```
 
-### 2. Open the project folder
+2. Open the project folder:
 
 ```bash
 cd StudentManagementSystem
 ```
 
-### 3. Run the application
+3. Run the application:
 
 ```bash
 python student_management.py
 ```
 
-## 📚 Concepts Practised
+## Application Menu
 
-- Python programming fundamentals
-- Functions and modular programming
-- Lists and dictionaries
-- Conditional statements and loops
-- JSON file handling
-- Exception handling
-- CRUD operations (Create, Read, Update, Delete)
+```text
+===== Student Management System =====
+1. Add Student
+2. View Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Exit
+```
 
-## 🚀 Future Improvements
+## Data Storage
 
-- Add a graphical user interface
-- Integrate a MySQL database
-- Add student performance reports
-- Improve input validation
-- Add automated testing
+Student records are stored in `students.json`.
 
-## 👩‍💻 Author
+Each student record contains:
 
-**Shreya Shrikant Patil**
+- Student ID
+- Name
+- Course
+- Marks
+
+## Learning Outcomes
+
+Through this project, I practised Python functions, CRUD operations, JSON file handling, input validation, and exception handling.
+
+## Author
+
+**Shreya Patil**
 
 - GitHub: https://github.com/29-shreya
 - LinkedIn: https://linkedin.com/in/shreyapatil29
