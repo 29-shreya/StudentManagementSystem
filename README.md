@@ -1,35 +1,73 @@
-
 # Student Management System
 
-## About the Project
-A simple Python-based application to manage student records using JSON file handling.
+A Python-based Student Management System that helps manage student records through a simple application.
 
 ## Features
-- Add student details
+
+- Add new student records
 - View all student records
-- Search students by ID
-- Update student information
+- Search for students
+- Update student details
 - Delete student records
-- Store records permanently in a JSON file
-- Validate student marks and prevent duplicate IDs
+- Store student information using JSON file handling
 
 ## Technologies Used
+
 - Python
+- Object-Oriented Programming (OOP)
 - JSON
 - File Handling
 
-## Project Files
-- `student_management.py` - Main program and menu
-- `file_handler.py` - Loads and saves student records
-- `students.json` - Stores student data and is created automatically
+## Project Structure
+
+```text
+StudentManagementSystem/
+│
+├── main.py
+├── student.py
+├── students.json
+├── README.md
+└── .gitignore
+```
+
+*Adjust the file structure above to match the actual files in your repository.*
+
+## Concepts Practised
+
+- Python functions and classes
+- Object-Oriented Programming
+- CRUD operations
+- File handling
+- Data storage using JSON
 
 ## How to Run
+
 1. Install Python 3.
-2. Download or clone this repository.
-3. Open the project folder in VS Code.
-4. Run the following command:
+2. Clone this repository:
 
-   `python student_management.py`
+```bash
+git clone https://github.com/29-shreya/StudentManagementSystem.git
+```
 
-## Learning Outcomes
-This project demonstrates Python functions, lists, dictionaries, loops, conditional statements, exception handling, and JSON file handling.
+3. Open the project folder.
+4. Run the main Python file:
+
+```bash
+python main.py
+```
+
+## Future Improvements
+
+- Add input validation
+- Improve exception handling
+- Add a graphical user interface
+- Integrate a MySQL database
+- Add automated tests
+
+## Author
+
+Shreya Shrikant Patil
+
+GitHub: https://github.com/29-shreya
+
+LinkedIn: https://linkedin.com/in/shreyapatil29
